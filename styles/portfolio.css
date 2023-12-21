@@ -1,8 +1,40 @@
+:root {
+  --branding-color: #127c56;
+  --secondary-color: #eab64d;
+  --heading-font-family: "Rubik Doodle Shadow", serif;
+  --default-font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
 h1 {
-  font-family: "Rubik Doodle Shadow", serif;
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+  font-size: 36px;
+}
+p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  color: white;
+  padding: 160px 0;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
