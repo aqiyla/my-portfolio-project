@@ -102,10 +102,8 @@ p {
   }
 }
 
-.about-section {
-  background: #127c56;
-}
 .about-hero {
+  background: #127c56;
   text-align: center;
   color: white;
   padding: 160px 20px;
@@ -152,4 +150,25 @@ p {
     font-size: 44px;
     line-height: 1.5;
   }
+}
+
+.portfolio-hero {
+  background: var(--secondary-color);
+  text-align: center;
+  color: white;
+  padding: 80px 20px;
+}
+
+.portfolio-hero h1 {
+  font-size: 64px;
+}
+.portfolio-hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+}
+
+.portfolio-content img {
+  box-sizing: border-box;
+  background-color: var(--secondary-color);
+  padding: 20px 20px;
 }
