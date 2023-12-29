@@ -154,7 +154,7 @@ p {
 }
 
 .portfolio-hero {
-  background: var(--secondary-color);
+  background: var(--branding-color);
   text-align: center;
   color: white;
   padding: 80px 20px;
