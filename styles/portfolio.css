@@ -107,6 +107,7 @@ p {
   text-align: center;
   color: white;
   padding: 160px 20px;
+  min-height: 100vh;
 }
 
 .about-hero h1 {
@@ -171,4 +172,15 @@ p {
   box-sizing: border-box;
   background-color: var(--secondary-color);
   padding: 20px 20px;
+}
+
+.portfolio-content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  margin: 20px 0 0;
+  line-height: 1.5;
+}
+
+.portfolio-content p {
+  font-size: 14px;
 }
