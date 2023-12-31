@@ -83,11 +83,17 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
+.contact-box-about-page {
+  background: var(--branding-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
   color: white;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h2 {
@@ -137,10 +143,6 @@ footer .social-links a:hover {
   }
   p {
     font-size: 14px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .hero h2 {
@@ -212,7 +214,7 @@ footer .social-links a:hover {
   background: var(--secondary-color);
   text-align: center;
   color: white;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .content-hero h1 {
