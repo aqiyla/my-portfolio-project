@@ -153,34 +153,41 @@ p {
   }
 }
 
-.portfolio-hero {
+.content-hero {
   background: var(--branding-color);
   text-align: center;
   color: white;
   padding: 80px 20px;
 }
 
-.portfolio-hero h1 {
+.content-hero h1 {
   font-size: 64px;
 }
-.portfolio-hero h2 {
+.content-hero h2 {
   font-family: var(--default-font-family);
   font-size: 36px;
 }
 
-.portfolio-content img {
+.content-container img {
   box-sizing: border-box;
   background-color: var(--secondary-color);
   padding: 20px 20px;
 }
 
-.portfolio-content h3 {
+.content-container h3 {
   font-family: var(--default-font-family);
   font-size: 24px;
   margin: 20px 0 0;
   line-height: 1.5;
 }
 
-.portfolio-content p {
+.content-container p {
   font-size: 14px;
+}
+
+.contact-page {
+  background: var(--secondary-color);
+  text-align: center;
+  color: white;
+  padding: 80px 20px;
 }
