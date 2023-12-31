@@ -83,12 +83,6 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
-.contact-box-about-page {
-  background: var(--branding-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-
 .hero {
   background: var(--secondary-color);
   text-align: center;
