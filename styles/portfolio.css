@@ -9,6 +9,17 @@ body {
   font-family: var(--default-font-family);
 }
 
+.navbar-brand {
+  color: #127c56;
+}
+.navbar-nav {
+  font-family: var(--default-font-family);
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -154,7 +165,7 @@ p {
 }
 
 .content-hero {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   text-align: center;
   color: white;
   padding: 80px 20px;
@@ -186,8 +197,23 @@ p {
 }
 
 .contact-page {
-  background: var(--secondary-color);
+  background: var(--branding-color);
   text-align: center;
   color: white;
   padding: 80px 20px;
+}
+
+.contact-page a {
+  color: #eab64d;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .content-hero h1 {
+    font-size: 40px;
+  }
+
+  .content-hero h2 {
+    font-size: 18px;
+  }
 }
